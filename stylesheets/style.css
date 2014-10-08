@@ -1,0 +1,367 @@
+/* ******************************
+	Author: Saleh Saiid
+	Website: salehsaiid.me
+	E-Mail: me@salehsaiid.me
+	Status: feeling awesome
+****************************** */
+* {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: none;
+}
+body {
+   background: #1b1d20;
+   color: #1b1d20;
+   font: 15px/26px 'Mate', Times, "Times New Roman", serif;
+   margin-bottom: 10px;
+}
+a {
+   color: #fff;
+   text-decoration: none;
+}
+a:hover {
+   color: #846a33;
+}
+ul {
+   margin: 0px;
+   list-style-type: none;
+}
+.clear {
+   clear: both;
+}
+::-moz-selection,
+::selection { 
+   background: #444; 
+   color: #fff; 
+   text-shadow: none; 
+}
+
+
+/* **** General **** */
+.layer {
+   position: fixed;
+   top: 0px;
+   right: 0px;
+   bottom: 0px;
+   left: 0px;
+}
+
+/* **** Startlayer **** */
+#start {
+   background: #1b1d20 url("../graphic/startbackground.png") center center no-repeat;
+   background: #1b1d20;
+   background: #fff;
+   z-index: 12;
+   text-align: center;
+   padding-top: 100px;
+}
+#start article {
+   position: absolute;
+   top: 50%;
+   width: 100%;
+   margin-top: -100px;
+}
+#start h3 {
+   font-size: 9px;
+   text-transform: uppercase;
+   color: #a88743;
+   color: #767779;
+   letter-spacing: 0.25em;
+   margin-bottom: 80px;
+   font-weight: normal;
+   font-family: proxima-nova-1, proxima-nova-2, sans-serif !important;
+   display: none;
+}
+#start h2 {
+   font-size: 22px;
+   letter-spacing: 0.1em;
+   margin-bottom: 0px;
+   font-weight: normal;
+}
+#start h2 span {
+   color: #a88743;
+   color: #1b1d20;
+   font-style: italic;
+}
+#start h1 {
+   font-size: 14px;
+   font-style: italic;
+   color: #a95430;
+   color: #aa9483;
+   letter-spacing: 0.1em;
+   padding-bottom: 89px;
+   background: url("../graphic/h1background.png") center bottom no-repeat;
+   font-weight: normal;
+}
+#start .amp {
+   font-family: "sorts-mill-goudy-1", "sorts-mill-goudy-2", serif;
+   font-style: italic;
+   font-size: 16px;
+   top: 2px;
+   position: relative;
+}
+#start ul {
+   width: 620px;
+   position: absolute;
+   bottom: 0px;
+   left: 50%;
+   margin-left: -310px;   
+}
+#start li {
+   display: inline-block;
+   list-style: none;
+   margin: 0px;
+}
+#start a {
+   display: block;
+   width: 150px;
+   height: 10px;
+   // border: 1px solid #27292b;
+   border-bottom: none;
+	font-family: proxima-nova-1, proxima-nova-2, sans-serif !important;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 10px;
+   line-height: 10px;
+   letter-spacing: 0.2em;
+   color: #767779;
+   text-transform: uppercase;
+   padding: 24px 0 10px 0;
+   margin-bottom: 11px;
+}
+#start a:hover {
+   background: #fff;
+   color: #767779;
+   border-top: 1px solid #aa9483;
+}
+#second {
+   z-index: 10;
+   background: #fff;
+   font: 40px 'Old Standard TT', serif;
+   text-transform: uppercase;
+   letter-spacing: 0.1em;
+   color: #1b1d20;
+   text-align: center;
+}
+#second span {
+   position: absolute;
+   bottom: 50px;
+   display: block;
+   width: 100%;
+}
+#third {
+   z-index: 8;  
+   background: #1b1d20; 
+}
+#fourth {
+   z-index: 6;
+   background: #a88743 url("../graphic/fourthbackground.jpg") 0px 0px repeat;
+   background-attachment: fixed;
+}
+#fourth span {
+   position: absolute;
+   bottom: 50px;
+   display: block;
+   width: 100%;
+   height: 158px;
+   background: url("../graphic/lesavignonsbig.png") center center no-repeat;
+   text-indent: -999999px;
+}
+
+/* **** Portfolio **** */
+nav {
+   position: fixed;
+   width: 960px;
+   left: 50%;
+   bottom: 0px;
+   margin-left: -480px;
+   z-index: 120;
+   text-align: center;
+}
+nav a {
+   display: inline-block;
+   width: 60px;
+   height: 40px;
+   background: #1b1d20 url("../graphic/nav.png") 22px center no-repeat;
+   border: 1px solid #27292b;
+   border-bottom: none;
+	color: #a88743;
+	text-indent: -999999px;
+}
+nav a.prev {
+   background-position: -39px center;
+}
+nav a:hover {
+   background-color: #1f2225;
+}
+
+#portfoliolayer {
+   position: absolute;
+   z-index: 4;
+   background: #1b1d20;
+   height: 8820px;
+   height: 6820px;
+   width: 100%;
+   text-align: center;
+}
+#portfoliolayer section {
+   padding: 60px 0px;
+   border-bottom: 1px solid #27292b;
+}
+#portfoliolayer h2 {
+   font-size: 28px;
+   letter-spacing: 0.1em;
+   font-weight: normal;
+   width: 900px;
+   margin: 0 auto 10px auto;
+}
+#portfoliolayer p {
+   font-size: 13px;
+   line-height: 26px;
+   letter-spacing: 0.08em;
+   color: #bbb;
+   width: 900px;
+   margin: 0 auto 25px auto;
+}
+#portfoliolayer p a {
+   font-style: italic;
+   color: #bbb;
+}
+#portfoliolayer p a:hover {
+   color: #a88743;
+}
+#portfoliolayer figure,
+#portfoliolayer img {
+   display: block;
+   margin: auto;
+   z-index: 20;
+   position: relative;
+}
+
+/* 365 awesome designers */
+section.awesomedesigners {
+   background: url("../graphic/365awesomedesignersbackground.png") center 172px no-repeat;
+}
+section.awesomedesigners img {
+   margin-top: 170px !important;
+}
+section.awesomedesigners span {
+   font-size: 13px;
+   font-style: italic;
+   color: #777;
+   display: block;
+   margin-top: 30px;
+   letter-spacing: 0.08em;
+}
+section.awesomedesigners ul li {
+   display: inline-block;
+}
+section.awesomedesigners ul li a {
+   margin: 0 15px;
+   display: block;
+}
+section.awesomedesigners ul li img {
+   margin-top: 0 !important;
+}
+/* designers.mx */
+section.designersmx iframe {
+   margin: -5px 0 18px -1px;
+   opacity: 0.4;
+   z-index: 10;
+   position: relative;
+}
+/* spenglerei */
+section.spenglerei figure {
+   margin-top: -110px !important;
+   display: block !important;
+}
+/* austrian dribbble meetup */
+section.dribbblemeetup {
+   border-bottom: none !important;
+}
+
+/* **** About **** */
+.aboutsectionmargin {
+   position: absolute;
+   z-index: 1;
+   top: 8820px;
+   top: 6820px;
+   width: 100%;
+   height: 100%;
+   background: transparent;
+}
+#aboutlayer {
+   position: fixed;
+   z-index: 2;
+   background: url("../graphic/aboutbackground.jpg") center center no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#aboutlayer article {
+   position: absolute;
+   bottom: 30px;
+   left: 50%;
+   width: 340px;
+   margin-left: -170px;
+   text-align: justify;
+}
+#aboutlayer article p {
+   margin-bottom: 30px;
+   letter-spacing: 0.1em;
+}
+#aboutlayer article span {
+   font-style: italic;
+}
+#aboutlayer a {
+   font-style: italic;
+}
+#aboutlayer .av {
+   display: block;
+   width: 100%;
+   height: 74px;
+   background: url("../graphic/lesavignonssmall.png") center center no-repeat;
+   text-indent: -999999px;
+   opacity: 1;
+}
+#aboutlayer .av:hover {
+   opacity: 0.6;
+}
+
+/* Startanimation */
+#start h1, #start h2, #start h3 {
+   opacity: 0;
+   position: relative;
+}
+#start h2 {
+   top: -20px;
+}
+#start h3 {
+   top: -20px;
+}
+#start ul {
+   opacity: 0;
+}
+#portfoliolayer section {
+   position: relative;
+   top: 100px;
+}
+#portfoliolayer nav {
+   bottom: -50px;
+}
+
+/* **** Mobile **** */
+
+@media only screen and (max-width: 480px) {
+
+}
+
+/* **** Retina **** */
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+   .proudmember {
+      background: url("../grafik/lesavignons@2x.png") center bottom no-repeat;
+      background-size: 89px 88px;      
+   }
+}
